@@ -56,3 +56,10 @@ img{
     background-size: cover;
     background-position: center;
 }
+
+.products .item .title h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
