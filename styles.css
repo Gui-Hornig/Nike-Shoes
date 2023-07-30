@@ -23,3 +23,18 @@ body{
     color: var(--white);
     background-color: #543c52;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.site{
+    display:flex;
+    align-items: center;
+}
