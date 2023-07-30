@@ -48,3 +48,11 @@ img{
     background-color: var(--secondary);
     box-shadow: 0 10px 36px 0 rgb(0 0 0 / 16%);
 }
+
+.products .item .brand {
+    width: 60px;
+    height: 40px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIj48cGF0aCBkPSJtMjU1Ljk0MyAyMzYuMzA1LTc5LjI4MyAyMC44MTNjLTI4LjAwNCA2Ljk0Ny01Mi40OTggMTYuMjA4LTc2LjEwMSA4LjEtMzIuMDg0LTEzLjg5LTMxLjUxMS01MC4wMzktNy41OTEtODguNDk3LTQyLjI4OCAzNS4wMDEtMTE4LjM5IDE0Ni45LTE1LjQ2NiAxNTguMjA0IDEzLjExMiAxLjcyNyAzNi40NTQtMi44OCA2MS44MS0xMy41NzlsMTE2LjYzMi00OC4wMDIgMjMwLjA1NS05NC4zMTYtMjAxLjQ3MSA0OS43NTktMjguNTg1IDcuNTE4eiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9zdmc+');
+    background-size: cover;
+    background-position: center;
+}
