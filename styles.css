@@ -64,6 +64,19 @@ img{
     margin-bottom: 30px;
 }
 
+.products .item:hover .image img {
+    animation: motionProduct 2s infinite;
+}
+
+@keyframes motionProduct {
+    0%, 100% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(10px);
+    }
+}
+
 @media screen and (min-width: 568px){
     .products .item .image {
         transition: transform .3s;
