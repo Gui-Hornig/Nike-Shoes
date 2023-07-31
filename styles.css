@@ -152,10 +152,15 @@ img{
 }
 
 .products .item:hover .addtocard button i {
-    animation: motionArrow 1.5s infinite;
+    animation: motionArrow 1.4s infinite;
 }
 @keyframes motionArrow {
-    0%, 100%
+    0%, 100% {transform: translateX(0);}
+    50% {transform:translateX(6px);}
+}
+
+.products .item .addtocard button:hover{
+    
 }
 
 
