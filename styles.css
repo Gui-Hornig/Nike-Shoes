@@ -103,6 +103,7 @@ img{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: transform .3s, box-shadow .3s, color .3s, background-color .3s;
 }
 
 .products .item .size input:checked + label {
@@ -113,6 +114,12 @@ img{
 .products .item .size input{
     display: none;
 }
+
+.products .item .price {
+    font-size: 24px;
+    font-weight: 300;
+}
+
 
 @media screen and (min-width: 568px){
     .products .item .image {
