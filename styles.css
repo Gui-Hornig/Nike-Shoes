@@ -138,13 +138,26 @@ img{
     content: '';
     position: absolute;
     top: 0;
-    right: 8;
+    right: 0;
     width: 50px;
     height: 50px;
     background-color: var(--primary);
 }
 
-.products .item .addtocard button i {}
+.products .item .addtocard button i {
+    color: var(--white);
+    padding-right: 12px; /*Mudei, Original e 12px*/
+    margin-left: 24px;  /*Mudei, Original e 24px*/
+    z-index: 10;
+}
+
+.products .item:hover .addtocard button i {
+    animation: motionArrow 1.5s infinite;
+}
+@keyframes motionArrow {
+    0%, 100%
+}
+
 
 @media screen and (min-width: 568px){
     .products .item .image {
