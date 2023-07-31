@@ -63,3 +63,9 @@ img{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
+@media screen and (min-width: 568px){
+    .products .item .image {
+        transform: scale(1.25) translate3d(30%, -20%, 0);
+    }
+}
