@@ -150,6 +150,12 @@ img{
 background-color: var(--white);
 }
 
+.products .item .addtocard span{
+    transform: translateX(-20pcx);
+    opacity: 0;
+    transition: transform .3s, opacity .3s;
+}
+
 .products .item .addtocard button i {
     color: var(--white);
     padding-right: 12px; /*Mudei, Original e 12px*/
