@@ -160,4 +160,17 @@ img{
     .products .item:hover .size label {
         transform: translateX(0);
     }
+
+    .products .item .size label:nth-child(z) {
+        transition-delay: 50ms;
+    }
+    .products .item .size label:nth-child(z) {
+        transition-delay: 50ms;
+    }
+    .products .item .size label:nth-child(z) {
+        transition-delay: 50ms;
+    }
+    .products .item .size label:nth-child(z) {
+        transition-delay: 50ms;
+    }
 }
