@@ -84,7 +84,13 @@ img{
     align-items: center;
     margin-top: 30px;
 }
-
+.products .item .size {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
 .products .item .size label {
     width: 36px;
     height: 36px;
