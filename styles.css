@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
 :root {
-    --primary: #f55951;
-    --secondary: #361d32;
+    --primary: #51f557e3;
+    --secondary: #130f0bcf;
     --white: #ffffff;
 }
 
@@ -21,7 +21,7 @@ body{
     font-weight: 400;
     line-height: 1.8;
     color: var(--white);
-    background-color: #543c52;
+    background-color: #00000111;
 }
 
 a{
@@ -151,9 +151,14 @@ background-color: var(--white);
 }
 
 .products .item .addtocard span{
-    transform: translateX(-20pcx);
+    transform: translateX(-20px);
     opacity: 0;
     transition: transform .3s, opacity .3s;
+}
+
+.products .item .addtocard button span {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .products .item .addtocard button i {
