@@ -132,6 +132,7 @@ img{
     color:var(--white);
     background-color: transparent;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .products .item .addtocard button::before {
@@ -142,6 +143,11 @@ img{
     width: 50px;
     height: 50px;
     background-color: var(--primary);
+    transition: background-color .3s;
+}
+
+.products .item .addtocard button:hover::before {
+background-color: var(--white);
 }
 
 .products .item .addtocard button i {
@@ -152,11 +158,11 @@ img{
 }
 
 .products .item:hover .addtocard button i {
-    animation: motionArrow 1.4s infinite;
+    animation: motionArrow 1.5s infinite;
 }
 @keyframes motionArrow {
     0%, 100% {transform: translateX(0);}
-    50% {transform:translateX(6px);}
+    50% {transform:translateX(5px);}
 }
 
 .products .item .addtocard button:hover i{
@@ -166,6 +172,15 @@ img{
 @keyframes runArrow {
     33%{
         transform: translateX(50px);
+        opacity: 0;
+    }
+    66%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
     }
 }
 
