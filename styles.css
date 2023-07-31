@@ -144,6 +144,8 @@ img{
     background-color: var(--primary);
 }
 
+.products .item .addtocard button i {}
+
 @media screen and (min-width: 568px){
     .products .item .image {
         transition: transform .3s;
