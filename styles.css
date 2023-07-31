@@ -129,7 +129,8 @@ img{
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color:var(--white)
+    color:var(--white);
+    background-color: transparent;
 }
 
 @media screen and (min-width: 568px){
