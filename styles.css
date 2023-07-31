@@ -69,6 +69,10 @@ img{
         transition: transform .3s;
     }
 
+    .products .item .image img{
+        position: relative;
+    }
+
     .products .item:hover .image {
         transform: scale(1.25) translate3d(30%, -20%, 0);
     }
@@ -79,5 +83,9 @@ img{
         width: 150px;
         height: 150px;
         background-color: var(--primary);
+        border-radius: 50%;
+        top: 25%;
+        right: 0;
+        filter: blur(90px);
     }
 }
