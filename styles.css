@@ -159,8 +159,14 @@ img{
     50% {transform:translateX(6px);}
 }
 
-.products .item .addtocard button:hover{
-    
+.products .item .addtocard button:hover i{
+    color: var(--primary);
+    animation: runArrow .5s forwards;
+}
+@keyframes runArrow {
+    33%{
+        transform: translateX(50px);
+    }
 }
 
 
