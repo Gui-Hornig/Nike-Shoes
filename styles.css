@@ -153,6 +153,7 @@ img{
         flex-basis: auto;
         transform: translateY(-50%);
         padding: 0 30px;
+        overflow: hidden;
     }
     .products .item .size label{
         transform: translate(-100px);
