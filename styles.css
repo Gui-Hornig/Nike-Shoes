@@ -154,4 +154,10 @@ img{
         transform: translateY(-50%);
         padding: 0 30px;
     }
+    .products .item .size label{
+        transform: translate(-100px);
+    }
+    .products .item:hover .size label {
+        transform: translateX(0);
+    }
 }
