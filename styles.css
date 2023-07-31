@@ -87,5 +87,11 @@ img{
         top: 25%;
         right: 0;
         filter: blur(90px);
+        opacity: 0;
+        transition: opacity .3s;
+    }
+
+    .products .item:hover .image::before{
+        opacity: .75;
     }
 }
